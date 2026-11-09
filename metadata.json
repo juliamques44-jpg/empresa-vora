@@ -1,0 +1,6 @@
+{
+  "name": "ÉVORA | Maison de Alta Costura Sustentável",
+  "description": "Compre menos, escolha bem, faça durar. E-commerce de luxo sustentável da grife ÉVORA com catálogo, sacola, checkout seguro, área do cliente e painel administrativo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

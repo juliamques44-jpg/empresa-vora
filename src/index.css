@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --color-evora-green: #183D32;
+  --color-evora-offwhite: #F5F1E8;
+  --color-evora-wine: #642B38;
+  --color-evora-brown: #72513E;
+  --color-evora-beige: #D8CCBA;
+
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #F5F1E8;
+  color: #183D32;
+}
+
+/* Custom scrollbar matching maison palette */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F1E8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CCBA;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #72513E;
+}
+
+/* Tabular numbers for price and metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
